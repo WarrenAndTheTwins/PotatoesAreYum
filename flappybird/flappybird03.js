@@ -55,6 +55,7 @@ function setup(){
     pipeGroup = new Group();
 }
 
+
 function draw(){
     // redraw the background 
     image(bg, 0, 0, width, height);
