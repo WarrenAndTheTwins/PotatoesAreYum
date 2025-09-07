@@ -70,7 +70,7 @@ function draw(){
         startScreenLabel.visible = false;
     }
 
-    if 
+    if (startGame)
 
     // keyboard press event || means or
     
