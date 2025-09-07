@@ -1,4 +1,4 @@
-
+let startScreenLabel
 
 let bird, floor; // object declarations
 let flapMidImg, flapUpImg, flapDownImg, bg, base; // image declarations
