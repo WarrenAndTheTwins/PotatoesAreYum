@@ -1,3 +1,4 @@
+
 let startScreenLabel;
 let startScreenImage;
 let bird, floor; // object declarations
