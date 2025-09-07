@@ -62,7 +62,8 @@ function setup(){
     // setup the group for pipe
     pipeGroup = new Group();
     scoreDigits = new Group();
-    scoreDigits.collider = 'none'
+    scoreDigits.collider = 'none';
+    scoreD
 
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none' )
     startScreenLabel.img = startScreenImage
