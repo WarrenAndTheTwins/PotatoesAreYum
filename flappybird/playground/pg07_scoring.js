@@ -1,6 +1,6 @@
 let score = 0;
 let numImg = [];
-let scoredigits;
+let scoreDigits;
 let startGame = false;
 let startScreenLabel;
 let startScreenImage;
