@@ -53,9 +53,9 @@ function setup(){
 
     // setup the group for pipe
     pipeGroup = new Group();
-}
-startScreenLabel:
 
+startScreenLabel = new Sprite
+}
 function draw(){
     // redraw the background 
     image(bg, 0, 0, width, height);
