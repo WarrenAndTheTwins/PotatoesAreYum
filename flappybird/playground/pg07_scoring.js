@@ -177,6 +177,6 @@ function spawnPipePair(){
 }
 
 
-function drawScore(x, y, score, digitHeight){
+function drawScore(x, y, score, digitWidth, digitHeight){
 
 }
