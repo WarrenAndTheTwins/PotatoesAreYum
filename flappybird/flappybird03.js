@@ -1,5 +1,5 @@
 let startScreenLabel;
-let 
+let startScreenImage
 let bird, floor; // object declarations
 let flapMidImg, flapUpImg, flapDownImg, bg, base; // image declarations
 let pipeGroup; // variable for group 
