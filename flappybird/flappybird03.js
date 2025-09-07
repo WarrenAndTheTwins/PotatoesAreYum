@@ -1,5 +1,5 @@
 let startScreenLabel;
-let startScreenImage
+let startScreenImage;
 let bird, floor; // object declarations
 let flapMidImg, flapUpImg, flapDownImg, bg, base; // image declarations
 let pipeGroup; // variable for group 
@@ -11,7 +11,7 @@ let gameOverLabel; // variable for sprite
 
 
 function preload(){
-    
+    startScreenImage = 
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
     flapMidImg = loadImage('assets/yellowbird-midflap.png');    
