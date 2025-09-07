@@ -56,6 +56,7 @@ function setup(){
 
 startScreenLabel = new Sprite
 }
+
 function draw(){
     // redraw the background 
     image(bg, 0, 0, width, height);
