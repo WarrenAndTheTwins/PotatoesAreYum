@@ -120,7 +120,7 @@ function draw(){
     bird.x += 3; // moves the bird forward by 3 pixes every frame
     camera.x = bird.x;// locking the camera position to bird 
     floor.x = bird.x;
-    
+    drawScore()
     // detect collision to pipe and floor
     if (bird.collides(pipeGroup) || bird.collides(floor)){
         // create the game over sprite
