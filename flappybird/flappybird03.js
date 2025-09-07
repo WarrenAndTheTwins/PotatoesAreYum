@@ -66,8 +66,7 @@ function draw(){
     image(bg, 0, 0, width, height);
     
      if (kb.presses('space') || mouse.presses()){
-        bird.velocity.y = -5;
-        bird.sleeping = false;
+        startGame = true
     }
     // keyboard press event || means or
     if (kb.presses('space') || mouse.presses('left')){
