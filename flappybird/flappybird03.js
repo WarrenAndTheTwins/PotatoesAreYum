@@ -1,8 +1,10 @@
+
+
 let bird, floor; // object declarations
 let flapMidImg, flapUpImg, flapDownImg, bg, base; // image declarations
 let pipeGroup; // variable for group 
 let pipe; // image
-let bottomPipe, topPipe;
+let bottomPipe, topPipe; //declaring variable
 
 let gameOverImg; // variable for image
 let gameOverLabel; // variable for sprite
@@ -15,7 +17,6 @@ function preload(){
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     gameOverImg = loadImage('assets/gameover.png');
-
     pipe = loadImage('assets/pipe-green.png');
 }
 
@@ -23,8 +24,9 @@ function setup(){
     new Canvas(400, 600);
     background(220);
 
-    bird = new Sprite();
-    bird.x = width/2;
+    //creating the flappy bird sprite
+    bird = new Sprite();//var name = new Sprite(x,y,w,h);
+    bird.x = width/2;   //var name = new Sprite(x,y,D);
     bird.y = 200;
     bird.w = 30;
     bird.h = 30;
@@ -94,7 +96,7 @@ function draw(){
 
     // move the bird x and lock camera
     bird.x += 3; // moves the bird forward by 3 pixes every frame
-    camera.x = bird.x;
+    camera.x = bird.x;// locking the camera position to bird 
     floor.x = bird.x;
 
     // detect collision to pipe and floor
@@ -108,7 +110,7 @@ function draw(){
         gameOverLabel.img = gameOverImg;
         gameOverLabel.layer = 100;
         gameOverLabel.x = camera.x;
-        noLoop();
+        noLoop();//freeze the draw loop function
     }
 
     // debug information
