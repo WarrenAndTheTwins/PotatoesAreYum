@@ -1,4 +1,6 @@
-let startGame = false
+
+
+let startGame = false;
 let startScreenLabel;
 let startScreenImage;
 let bird, floor; // object declarations
@@ -62,7 +64,7 @@ startScreenLabel.img = startScreenImage
 function draw(){
     // redraw the background 
     image(bg, 0, 0, width, height);
-
+    
     // keyboard press event || means or
     if (kb.presses('space') || mouse.presses('left')){
         bird.velocity.y = -5;
