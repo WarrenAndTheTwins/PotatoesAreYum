@@ -54,7 +54,7 @@ function setup(){
     // setup the group for pipe
     pipeGroup = new Group();
 }
-
+startScreenLabel:
 
 function draw(){
     // redraw the background 
