@@ -67,6 +67,7 @@ function draw(){
     
      if (kb.presses('space') || mouse.presses()){
         startGame = true
+        startScreenLabel
     }
     // keyboard press event || means or
     if (kb.presses('space') || mouse.presses('left')){
