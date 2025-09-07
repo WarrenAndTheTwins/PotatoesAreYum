@@ -186,6 +186,6 @@ function drawScore(x, y, score, digitWidth, digitHeight){
         let digit = int(scoreStr[i]);
         let xPos = startX + i * digitWidth;
         let digitSprite = new scoreDigits.sprite (xPos, y, digitWidth, digitHeight)
-        digitSprite.img = N
+        digitSprite.img = numImg[digit]
     }
 }
