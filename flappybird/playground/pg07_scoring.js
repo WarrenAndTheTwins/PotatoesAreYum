@@ -15,7 +15,9 @@ let gameOverLabel; // variable for sprite
 
 
 function preload(){
-    for(let i = 0; i < 10; i++){}
+    for(let i = 0; i < 10; i++){
+        number
+    }
     startScreenImage = loadImage('assets/message.png')
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
