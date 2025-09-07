@@ -122,7 +122,6 @@ function draw(){
     floor.x = bird.x;
     drawScore(width/2, 20, score, 24, 36)
 
-    }
     // detect collision to pipe and floor
     if (bird.collides(pipeGroup) || bird.collides(floor)){
         // create the game over sprite
