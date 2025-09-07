@@ -63,7 +63,7 @@ function setup(){
     pipeGroup = new Group();
     scoreDigits = new Group();
     scoreDigits.collider = 'none';
-    scoreD
+    scoreDigits.layer = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 
     startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none' )
     startScreenLabel.img = startScreenImage
