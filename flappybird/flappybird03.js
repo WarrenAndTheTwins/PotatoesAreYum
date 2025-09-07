@@ -69,11 +69,10 @@ function draw(){
     if (kb.presses('space') || mouse.presses()){
         startGame = true;
         startScreenLabel.visible = false;
-        bird.collider = "dynamic";
-        bird.
     }
 
     if (startGame){
+        bird.collider = "dynamic";
         if (kb.presses('space') || mouse.presses('left')){
         bird.velocity.y = -5;
         bird.sleeping = false;
