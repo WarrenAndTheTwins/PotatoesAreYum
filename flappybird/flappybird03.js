@@ -70,7 +70,61 @@ function draw(){
         startScreenLabel.visible = false;
     }
 
-    if (startGame)
+    if (startGame){
+        if (kb.presses('space') || mouse.presses('left')){
+        bird.velocity.y = -5;
+        bird.sleeping = false;
+    }
+
+    // changing bird animation up, down and neutral
+    if (bird.vel.y < -1){
+        bird.img = flapUpImg;
+        bird.rotation = -30;
+    }
+    else if (bird.vel.y > 1){
+        bird.img = flapDownImg;
+        bird.rotation = 30;
+    }
+    else{
+        bird.img = flapMidImg;
+        bird.rotation = 0;
+    }
+
+    // spawn pipe pair/ call the function
+    if (frameCount === 1){
+        spawnPipePair();
+    }
+
+    if (frameCount % 90 === 0){
+        spawnPipePair(); // spawn new pipes every 90 seconds
+    }
+
+    // to clear off pipes that have gone off screen
+    for (let pipe of pipeGroup){
+        if (pipe.x < -50){
+            pipe.remove();
+        }
+    }
+
+    // move the bird x and lock camera
+    bird.x += 3; // moves the bird forward by 3 pixes every frame
+    camera.x = bird.x;// locking the camera position to bird 
+    floor.x = bird.x;
+
+    // detect collision to pipe and floor
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+        // create the game over sprite
+        gameOverLabel = new Sprite();
+        // gameOverLabel.x = width / 2;
+        gameOverLabel.y = height / 2;
+        gameOverLabel.w = 192;
+        gameOverLabel.h = 42;
+        gameOverLabel.img = gameOverImg;
+        gameOverLabel.layer = 100;
+        gameOverLabel.x = camera.x;
+        noLoop();//freeze the draw loop function
+    }
+    }
 
     // keyboard press event || means or
     
