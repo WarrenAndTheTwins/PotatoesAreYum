@@ -175,3 +175,8 @@ function spawnPipePair(){
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0; // goes to the back i type something to change
 }
+
+
+function drawScore(){
+    
+}
