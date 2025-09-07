@@ -65,7 +65,10 @@ function draw(){
     // redraw the background 
     image(bg, 0, 0, width, height);
     
-    
+     if (kb.presses('space') || mouse.presses()){
+        bird.velocity.y = -5;
+        bird.sleeping = false;
+    }
     // keyboard press event || means or
     if (kb.presses('space') || mouse.presses('left')){
         bird.velocity.y = -5;
