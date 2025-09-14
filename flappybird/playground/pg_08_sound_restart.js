@@ -31,7 +31,7 @@ function preload(){
     pipe = loadImage('assets/pipe-green.png');
     flapSound = createAudio('assets/sfx_wings.mp3');
     pointSound = createAudio('assets/sfx_point.mp3');
-    dieSound = 
+    dieSound = createAudio('')
 }
 
 function setup(){
