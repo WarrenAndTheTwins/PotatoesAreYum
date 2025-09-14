@@ -116,7 +116,10 @@ function draw(){
         }
     
     for (let pipe of pipeGroup){
-        let pipeRightEdge = pipe.x / + pipe.w /2;//specify righht most 
+        let pipeRightEdge = pipe.x / + pipe.w /2;//specify right most 
+        
+    
+    
     }
     }
 
