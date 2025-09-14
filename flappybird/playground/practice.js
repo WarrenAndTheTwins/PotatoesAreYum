@@ -16,5 +16,6 @@ function draw(){
     while (count<5){
         count++
     }
+    if (mouse.presses (left));
 
 }
