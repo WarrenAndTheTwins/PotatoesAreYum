@@ -1,4 +1,4 @@
-let Square
+let Square;
 function setup(){
     new Canvas (800, 400)
 }
