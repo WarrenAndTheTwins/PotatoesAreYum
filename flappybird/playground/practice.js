@@ -22,9 +22,9 @@ function draw(){
         Richie_the_Circle.x = mouse.x;
         Richie_the_Circle.y = mouse.y;
         Richie_the_Circle.diameter = 50;
-        Richie_the_Circle.collider = "dynamic"};
+        Richie_the_Circle.collider = "dynamic";
         Richie_the_Circle.img = popimage;
-
+    }
 }
 function preload(){
     popimage = loadimage
