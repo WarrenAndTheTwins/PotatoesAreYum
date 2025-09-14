@@ -6,6 +6,7 @@ function setup(){
     background(220);
     Square = new Sprite(400, 200, 80, 80);
     Circle = new Sprite(100, 350, 40);
+    pipr = new pipeGroup();
 }
 function draw(){
     
