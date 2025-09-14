@@ -11,5 +11,5 @@ function setup(){
 function draw(){
     for(let i=0; i<10; i++){
         console.log("hi");
-    }
+       }
 }
