@@ -188,7 +188,7 @@ function drawScore(x, y, score, digitWidth, digitHeight){
         let digitSprite = new scoreDigits.sprite (xPos, y, digitWidth, digitHeight);
         digitSprite.img = numImg[digit];
     }
-    moveGroup(scoeDigits)
+    moveGroup(scoreDigits, camera.x, )
 }
 
 function moveGroup(group, targetX,spacing){
