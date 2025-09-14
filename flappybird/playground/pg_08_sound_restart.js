@@ -160,6 +160,7 @@ function draw(){
         gameOverLabel.img = gameOverImg;
         gameOverLabel.layer = 100;
         gameOverLabel.x = camera.x;
+        
         noLoop();//freeze the draw loop function
     }
     
