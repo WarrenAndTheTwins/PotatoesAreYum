@@ -110,7 +110,7 @@ function draw(){
     }
 
     // move the bird x and lock camera
-    bird.x += 3; // moves the bird forward by 3 pixes every frame
+    bird.x += 3; // moves the bird forward by 3 pixels every frame
     camera.x = bird.x;// locking the camera position to bird 
     floor.x = bird.x;
 
