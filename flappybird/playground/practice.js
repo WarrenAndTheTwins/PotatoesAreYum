@@ -7,5 +7,5 @@ function setup(){
 }
 function draw(){
     Square = new Sprite(400, 200, 80, 80);
-    Circle = new Sprite()
+    Circle = new Sprite(100, 350, 40);
 }
