@@ -29,7 +29,7 @@ function preload(){
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     gameOverImg = loadImage('assets/gameover.png');
     pipe = loadImage('assets/pipe-green.png');
-    flapSound = createAudio('assets/ ')
+    flapSound = createAudio('assets/sfx_')
 }
 
 function setup(){
