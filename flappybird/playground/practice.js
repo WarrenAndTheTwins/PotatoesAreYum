@@ -16,6 +16,6 @@ function draw(){
     while (count<5){
         count++
     }
-    if (mouse.presses ('left') || );
+    if (mouse.presses ('left') || KeyboardEvent.presses('space'));
 
 }
