@@ -160,7 +160,7 @@ function draw(){
         gameOverLabel.img = gameOverImg;
         gameOverLabel.layer = 100;
         gameOverLabel.x = camera.x;
-        
+        dieSound.play
         noLoop();//freeze the draw loop function
     }
     
