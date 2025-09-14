@@ -90,7 +90,7 @@ function draw(){
         if (kb.presses('space') || mouse.presses('left')){
         bird.velocity.y = -5;
         bird.sleeping = false;
-        flapSound.
+        flapSound.play();
     }
 
     // changing bird animation up, down and neutral
