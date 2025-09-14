@@ -1,5 +1,6 @@
 let flapSound;
-let die_sound
+let dieSound;
+let poi
 let score = 0;
 let numImg = [];
 let scoreDigits;
