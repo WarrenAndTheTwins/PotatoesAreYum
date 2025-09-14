@@ -20,6 +20,7 @@ function draw(){
     if (mouse.presses ('left') || KeyboardEvent.presses('space'));
         Richie_the_Circle = new Sprite(mouse.x, mouse.y,50, "dynamic");
         Richie_the_Circle.x = mouse.x;
-        Richie_the_Circle.y
+        Richie_the_Circle.y = mouse.y;
+        
 
 }
