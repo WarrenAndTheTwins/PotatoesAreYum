@@ -114,7 +114,10 @@ function draw(){
         if (pipe.x < -50){
             pipe.remove();
         }
-        
+    
+    for (let pipe of pipeGroup){
+        let pipeRightEdge = pipe.x / + pipe.w /2;//specify righht most 
+    }
     }
 
     // move the bird x and lock camera
