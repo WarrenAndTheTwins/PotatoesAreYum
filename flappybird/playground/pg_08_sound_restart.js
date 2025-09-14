@@ -1,3 +1,4 @@
+let
 let score = 0;
 let numImg = [];
 let scoreDigits;
