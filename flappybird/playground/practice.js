@@ -1,7 +1,7 @@
 let Square;
 let Circle;
 let Dave;
-let Richie_the_Circle
+let Richie_the_Circle;
 function setup(){
     new Canvas (800, 400);
     background(220);
