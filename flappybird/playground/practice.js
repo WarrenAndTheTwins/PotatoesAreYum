@@ -13,6 +13,8 @@ function draw(){
         console.log("hi");
     }
     let count = 0;
-    while (count<5);
-    
+    while (count<5){
+        count++
+    }
+
 }
