@@ -114,6 +114,7 @@ function draw(){
         if (pipe.x < -50){
             pipe.remove();
         }
+        
     }
 
     // move the bird x and lock camera
