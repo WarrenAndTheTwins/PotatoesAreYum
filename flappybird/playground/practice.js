@@ -12,5 +12,7 @@ function draw(){
     for(let i=0; i<10; i++){
         console.log("hi");
     }
+    let count = 0;
+    while (count<5);
     
 }
