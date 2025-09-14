@@ -27,5 +27,5 @@ function draw(){
     }
 }
 function preload(){
-    popimage = loadimage("assets/" + i +"backgroun-day.img")
+    popimage = loadimage("assets/" + i + "backgroun-day.png")
 }
