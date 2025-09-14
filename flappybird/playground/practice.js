@@ -18,6 +18,6 @@ function draw(){
         count++
     }
     if (mouse.presses ('left') || KeyboardEvent.presses('space'));
-        Richie_the_Circle = new Sprite(mouse)
+        Richie_the_Circle = new Sprite(mouse.x, mouse.y, )
 
 }
