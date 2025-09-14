@@ -8,6 +8,7 @@ function setup(){
     Square = new Sprite(400, 200, 80, 80);
     Circle = new Sprite(100, 350, 40);
     Dave = new Group();
+    world.gravity = 10
 }
 function draw(){
     for(let i=0; i<10; i++){
