@@ -25,3 +25,6 @@ function draw(){
         Richie_the_Circle.collider = "dynamic"}
 
 }
+function preload(){
+    
+}
