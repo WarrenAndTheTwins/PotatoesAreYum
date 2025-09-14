@@ -8,7 +8,7 @@ function setup(){
     Square = new Sprite(400, 200, 80, 80);
     Circle = new Sprite(100, 350, 40);
     Dave = new Group();
-    world.gravity = 10
+    world.gravity.y = 10
 }
 function draw(){
     for(let i=0; i<10; i++){
@@ -24,6 +24,7 @@ function draw(){
         Richie_the_Circle.y = mouse.y;
         Richie_the_Circle.diameter = 50;
         Richie_the_Circle.collider = "dynamic";
+        Richie_the_Circle
         Richie_the_Circle.img = popimage;
     }
 }
