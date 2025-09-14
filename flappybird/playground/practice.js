@@ -26,5 +26,5 @@ function draw(){
 
 }
 function preload(){
-    
+    popimage = loadimage
 }
