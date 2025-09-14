@@ -1,6 +1,6 @@
 let flapSound;
 let dieSound;
-let poi
+let pointSound;
 let score = 0;
 let numImg = [];
 let scoreDigits;
@@ -29,6 +29,7 @@ function preload(){
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     gameOverImg = loadImage('assets/gameover.png');
     pipe = loadImage('assets/pipe-green.png');
+    
 }
 
 function setup(){
