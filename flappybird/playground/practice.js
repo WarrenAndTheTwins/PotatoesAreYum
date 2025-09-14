@@ -24,7 +24,7 @@ function draw(){
         Richie_the_Circle.y = mouse.y;
         Richie_the_Circle.diameter = 50;
         Richie_the_Circle.collider = "dynamic";
-        Richie_the_Circle
+        Richie_the_Circle.bounciness = 10;
         Richie_the_Circle.img = popimage;
     }
 }
