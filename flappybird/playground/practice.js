@@ -27,5 +27,5 @@ function draw(){
     }
 }
 function preload(){
-    popimage = loadimage
+    popimage = loadimage("assets/" +i +"")
 }
