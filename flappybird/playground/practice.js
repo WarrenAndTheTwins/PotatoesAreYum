@@ -4,5 +4,5 @@ function setup(){
     background(220);
 }
 function draw(){
-    Square = new Sprite(400,200)
+    Square = new Sprite(400, 200, 80);
 }
