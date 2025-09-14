@@ -30,7 +30,7 @@ function preload(){
     gameOverImg = loadImage('assets/gameover.png');
     pipe = loadImage('assets/pipe-green.png');
     flapSound = createAudio('assets/sfx_wings.mp3');
-    pointSound = createAudio('assets')
+    pointSound = createAudio('assets/sfx_point.mp3')
 }
 
 function setup(){
