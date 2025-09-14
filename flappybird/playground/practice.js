@@ -1,4 +1,6 @@
 let Square;
+let Circle;
+let Dave;
 function setup(){
     new Canvas (800, 400);
     background(220);
