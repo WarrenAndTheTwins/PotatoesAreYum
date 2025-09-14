@@ -174,6 +174,8 @@ function spawnPipePair(){
     pipeGroup.add(bottomPipe);
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0; // goes to the back i type something to change
+
+    topPipe
 }
 
 
