@@ -8,9 +8,9 @@ function preload(){
         whole:loadImage('assets/peachwhole.png')
     };
     let watermelon = {
-        whole:loadImage
+        whole:loadImage('assets/watermelonwhole.png')
     };
-    watermelon = loadImage('assets/watermelonwhole.png');
+    watermelon = loadImage;
 }
 function setup(){
     new Canvas(800, 600);
