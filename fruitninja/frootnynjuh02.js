@@ -4,6 +4,9 @@ let fruitType = [];
 
 function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
+    let peach;
+    let watermelon;
+    
 }
 function setup(){
     new Canvas(800, 600);
