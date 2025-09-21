@@ -5,10 +5,9 @@ let fruitType = [];
 function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
     let peach = {
-        whole:loadImage
+        whole:loadImage('assets/peachwhole.png')
     };
     let watermelon;
-    peach = loadImage('assets/peachwhole.png');
     watermelon = loadImage('assets/watermelonwhole.png');
 }
 function setup(){
