@@ -1,6 +1,6 @@
 let dojoBG;
 function preload(){
-    dojoBG = loadImage('dojobackground.png');
+    dojoBG = loadImage('assets/dojobackground.png');
 }
 function setup(){
     new Canvas(800, 600);
