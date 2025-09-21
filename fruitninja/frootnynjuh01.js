@@ -1,2 +1,5 @@
 let dojoBG;
+function preload(){
+    
+}
 
