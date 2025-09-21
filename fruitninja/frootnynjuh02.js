@@ -10,7 +10,6 @@ function preload(){
     let watermelon = {
         whole:loadImage('assets/watermelonwhole.png')
     };
-    watermelon = loadImage;
 }
 function setup(){
     new Canvas(800, 600);
