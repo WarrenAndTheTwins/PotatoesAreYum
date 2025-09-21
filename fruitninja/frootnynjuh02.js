@@ -21,5 +21,6 @@ function draw(){
     image(dojoBG, 0, 0, 800, 600);
 }
 function spawnFruit(){
-    let fruitData = random()
+    let fruitData = random(fruitType)
+    letRandomX
 }
