@@ -6,7 +6,7 @@ function preload(){
     dojoBG = loadImage('assets/dojobackground.png');
     let peach;
     let watermelon;
-    
+    peach = loadIma
 }
 function setup(){
     new Canvas(800, 600);
