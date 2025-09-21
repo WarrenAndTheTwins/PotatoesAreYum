@@ -1,5 +1,5 @@
 let dojoBG;
 function preload(){
-    dojoBG = loadImage("dojobac")
+    dojoBG = loadImage("dojobackground.png")
 }
 
