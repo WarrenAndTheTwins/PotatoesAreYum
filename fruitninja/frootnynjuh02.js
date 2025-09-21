@@ -7,7 +7,7 @@ function preload(){
     let peach;
     let watermelon;
     peach = loadImage('assets/peachwhole.png');
-    
+    watermelon = loadImage('')
 }
 function setup(){
     new Canvas(800, 600);
