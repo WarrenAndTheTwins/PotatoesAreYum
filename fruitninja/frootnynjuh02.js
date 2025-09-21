@@ -21,8 +21,9 @@ function draw(){
     image(dojoBG, 0, 0, 800, 600);
 }
 function spawnFruit(){
-    let fruitData = random(fruitType)
-    let RandomX = random(300, 500)
-    let fruit = fruitGroup.Sprite(RandomX, height + 20, 40)
+    let fruitData = random(fruitType);
+    let RandomX = random(300, 500);
+    let fruit = fruitGroup.Sprite(RandomX, height + 20, 40);
     fruit.image = fruitData.whole
+
 }
