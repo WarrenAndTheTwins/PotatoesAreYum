@@ -23,5 +23,5 @@ function draw(){
 function spawnFruit(){
     let fruitData = random(fruitType)
     let RandomX = random(300, 500)
-    let fruit = fruitGroup.Sprite(RandomX, )
+    let fruit = fruitGroup.Sprite(RandomX, 820, 40)
 }
