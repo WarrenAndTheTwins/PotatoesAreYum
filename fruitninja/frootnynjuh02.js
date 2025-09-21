@@ -18,7 +18,7 @@ function setup(){
 }
 function draw(){
     clear();
-    image(dojoBG, 0, 0, 800, 600);
+    image(dojoBG, 0, 0, height, width);
 }
 function spawnFruit(){
     let fruitData = random(fruitType);
