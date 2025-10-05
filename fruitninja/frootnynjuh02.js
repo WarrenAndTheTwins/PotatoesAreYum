@@ -33,7 +33,7 @@ function spawnFruit(){
     fruit.friction = 0;
 
     if (mouse.pressing()){
-        trail = new Sprite
+        trail = new Sprite(mouse.x, mouse.y, 7)
 }
 
 }
