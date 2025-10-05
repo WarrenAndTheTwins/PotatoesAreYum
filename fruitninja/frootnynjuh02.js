@@ -19,7 +19,7 @@ function setup(){
 function draw(){
     clear();
     image(dojoBG, 0, 0, height, width);
-    if (frameCount % 120 ==                              0);
+    if (frameCount % 120 == 0);
         spawnFruit;
 }
 function spawnFruit(){
