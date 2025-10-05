@@ -33,7 +33,7 @@ function spawnFruit(){
     fruit.friction = 0;
 
     if (mouse.pressing()){
-
+        
 }
 
 }
