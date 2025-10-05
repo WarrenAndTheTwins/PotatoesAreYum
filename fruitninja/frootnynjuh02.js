@@ -40,7 +40,7 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
-    
+    stroke(158, 69, 69)
    
 }
 
@@ -67,7 +67,7 @@ function sliceFruit(){
             fruit.sliced= true;
             fruit.remove();
             splitFruit(fx,fy,fruit.type);
-
+            
             break;
         }
     }
