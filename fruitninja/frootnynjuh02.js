@@ -53,6 +53,7 @@ function sliceFruit(){
     }
     let distance = dist(mouse.x, mouse.y, fruit.x, fruit.y);
         if(distance <((fruit.diameter / 2) + 5)){
-                
+            const fx = fruit.x
+            const 
         }
 }
