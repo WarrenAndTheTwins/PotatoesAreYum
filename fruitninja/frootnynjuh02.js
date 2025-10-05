@@ -34,7 +34,10 @@ function spawnFruit(){
 
     if (mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 7);
-        tra
+        trail.collider = 'none';
+        trail.color = "red";
+        
+
 
 }
 
