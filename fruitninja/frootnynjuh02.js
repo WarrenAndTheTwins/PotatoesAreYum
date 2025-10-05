@@ -41,7 +41,8 @@ function draw(){
         sliceFruit();
     }
     stroke(158, 69, 69);
-    fill(255)
+    fill(255);
+    
    
 }
 
