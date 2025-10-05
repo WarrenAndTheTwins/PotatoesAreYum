@@ -10,7 +10,7 @@ function preload(){
         half:loadImage('assets/peachhalf.png')
     };
     let watermelon = {
-        whole:loadImage('assets/watermelonhalf.png'),
+        whole:loadImage('assets/watermelonwhole.png'),
         half: loadImage('assets/watermelonhalf.png')
     }
 
