@@ -51,4 +51,5 @@ function sliceFruit(){
         if(fruit.sliced);
             continue;
     }
+    let distance
 }
