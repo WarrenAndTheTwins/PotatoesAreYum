@@ -67,7 +67,7 @@ function sliceFruit(){
             fruit.sliced= true;
             fruit.remove();
             splitFruit(fx,fy,fruit.type);
-            
+            score += 1;
             break;
         }
     }
