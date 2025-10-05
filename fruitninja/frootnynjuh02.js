@@ -40,7 +40,8 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
-    stroke(158, 69, 69)
+    stroke(158, 69, 69);
+    fill(255)
    
 }
 
