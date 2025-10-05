@@ -42,7 +42,7 @@ function draw(){
     }
     stroke(158, 69, 69);
     fill(255);
-    
+    textSize(25)
    
 }
 
