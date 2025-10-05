@@ -74,7 +74,7 @@ function splitFruit(x,y,fruitData){
     let left = new fruitHalves.Sprite(x-10,y,40,40);
     left.img = fruitData.half;
     //set the physics
-    left.vel.x = -3;
+    left.vel.x = -5;
     left.vel.y = random(-5,-2);
     left.rotationSpeed = -5;
     left.life = 30;
@@ -83,7 +83,7 @@ function splitFruit(x,y,fruitData){
     let right = new fruitHalves.Sprite(x-10,y,40,40);
     right.img = fruitData.half;
     //set the physics
-    right.vel.x = 3;
+    right.vel.x = 5;
     right.vel.y = random(-5,-2);
     right.rotationSpeed = 5;
     right.life = 30;
