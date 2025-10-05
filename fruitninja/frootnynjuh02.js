@@ -75,7 +75,7 @@ function splitFruit(x,y,fruitData){
     left.img = fruitData.half;
     //set the physics
     left.vel.x = -5;
-    left.vel.y = random(-5,-2);
+    left.vel.y = random(-7,-2);
     left.rotationSpeed = -7;
     left.life = 30;
 
@@ -84,7 +84,7 @@ function splitFruit(x,y,fruitData){
     right.img = fruitData.half;
     //set the physics
     right.vel.x = 5;
-    right.vel.y = random(-,-2);
+    right.vel.y = random(-7,-3);
     right.rotationSpeed = 7;
     right.life = 30;
 }
