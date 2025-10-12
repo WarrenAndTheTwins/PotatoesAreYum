@@ -39,7 +39,7 @@ function draw(){
 
     if(gameState === 'start'){
         fill(0,180);
-        React()
+        rect()
     }
 
     if(mouse.pressing()){
