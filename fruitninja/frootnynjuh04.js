@@ -36,6 +36,8 @@ function draw(){
     if(frameCount % 120 === 0){
         spawnFruit();
     }
+
+    if(game)
     if(mouse.pressing()){
         trail = new Sprite(mouse.x,mouse.y,7);
         trail.collider = 'none';
