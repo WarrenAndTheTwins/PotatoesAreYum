@@ -6,6 +6,8 @@ let score = 0;
 let missedfruits = 0;
 let gameState = 'start';
 let slicesound;
+let bgTrack;
+
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
