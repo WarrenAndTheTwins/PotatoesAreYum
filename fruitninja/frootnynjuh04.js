@@ -33,11 +33,8 @@ function draw(){
     clear();
     image(dogoBG,0,0,width,height);
     // % refers to the remainder so if framecount / by 120 and the remainder is 0 then i call spawnfruit function
-    if(frameCount % 120 === 0){
-        spawnFruit();
-    }
-
-    if(gameState === 'start'){
+    
+     if(gameState === 'start'){
         fill(0,180);
         rect(0, 0, width, height);
         fill(255);
@@ -47,6 +44,11 @@ function draw(){
         textSize(24);
         text('Mew or Aura-Farm to Start', width/2, height/2 + 35);
     }
+    if(frameCount % 120 === 0){
+        spawnFruit();
+    }
+
+   
 
     if(mouse.pressing()){
         trail = new Sprite(mouse.x,mouse.y,7);
