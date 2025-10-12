@@ -72,7 +72,7 @@ function draw(){
             fruits.remove();
             missedfruits += 1;
     }
-    
+    if (!bgTrack.notPlaying())
 
 }
 
