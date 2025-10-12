@@ -72,10 +72,7 @@ function draw(){
             fruits.remove();
             missedfruits += 1;
     }
-    if (!bgTrack.isPlaying()){
-        bgTrack.loop();
-    }
-
+   
 }
 
     stroke(158, 69, 69);
@@ -84,7 +81,9 @@ function draw(){
     textAlign(LEFT, TOP);
     text('Score:' + score, 10, 10);
     text('Missed:' + missedfruits, 200, 10);
-
+     if (!bgTrack.isPlaying()){
+        bgTrack.loop();
+    }
    
 }
 
