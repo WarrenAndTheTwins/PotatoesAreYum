@@ -34,7 +34,7 @@ function draw(){
     image(dogoBG,0,0,width,height);
     // % refers to the remainder so if framecount / by 120 and the remainder is 0 then i call spawnfruit function
     
-     if(gameState === 'start'){
+    if(gameState === 'start'){
         fill(0,180);
         rect(0, 0, width, height);
         fill(255);
