@@ -43,7 +43,7 @@ function draw(){
         fill(255);
         textAlign(CENTER, CENTER);
         textSize(48);
-        text('Ultimate ')
+        text('Ultimate Nutrition Hater', width)
     }
 
     if(mouse.pressing()){
