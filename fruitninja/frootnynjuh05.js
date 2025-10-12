@@ -12,7 +12,7 @@ let bgTrack;
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
      sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
-     bgTrack = loadSound('assets/fruit-ninja-')
+     bgTrack = loadSound('assets/fruit-ninja-bgtrack.mp3');
     //declare peach 
     let peach = {
         whole:loadImage('assets/peachwhole.png'),
@@ -72,6 +72,8 @@ for (fruits of fruitGroup){
         fruits.remove();
         missedfruits += 1;
     }
+
+    
 }
 
     stroke(158, 69, 69);
