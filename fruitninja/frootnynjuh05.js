@@ -5,9 +5,11 @@ let fruitHalves;
 let score = 0;
 let missedfruits = 0;
 let gameState = 'start';
+let slicesound;
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
+     
     //declare peach 
     let peach = {
         whole:loadImage('assets/peachwhole.png'),
