@@ -1,10 +1,12 @@
+const { startTransition } = require("react");
+
 let fruitGroup;
 let fruitTypes =[];
 let dogoBG;
 let fruitHalves;
 let score = 0;
 let missedfruits = 0;
-let Jam
+let JamLate = startTransition;
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
