@@ -42,7 +42,7 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
-    
+for (fruits in fruitGroup)
 
     stroke(158, 69, 69);
     fill(255); 
