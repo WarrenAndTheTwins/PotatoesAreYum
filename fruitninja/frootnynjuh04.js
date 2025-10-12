@@ -34,8 +34,10 @@ function draw(){
     image(dogoBG,0,0,width,height);
     // % refers to the remainder so if framecount / by 120 and the remainder is 0 then i call spawnfruit function
     if (mouse.presses('A')||mouse.presses()&& gameState === 'start'){
+        
         score = 0;
-        missed
+        missedfruits = 0;
+
     }
     if(gameState === 'start'){
         fill(0,180);
