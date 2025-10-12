@@ -7,7 +7,9 @@ let missedfruits = 0;
 let gameState = 'start';
 let slicesound;
 let bgTrack;
-
+let GameStartTime = 0;
+let GameTimer = 0;
+let GameDuration = 60;
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
@@ -44,6 +46,8 @@ function draw(){
         missedfruits = 0;
         fruitGroup.removeAll();
         fruitHalves.removeAll();
+        GameStartTime = millis();
+        GameTimer = 0;
     }
     if(gameState === 'start'){
         fill(0,180);
@@ -83,6 +87,9 @@ function draw(){
     text('Missed:' + missedfruits, 200, 10);
      if (!bgTrack.isPlaying()){
         bgTrack.loop();
+    }
+    if (GameTimer >= GameDuration){
+        
     }
    
 }
