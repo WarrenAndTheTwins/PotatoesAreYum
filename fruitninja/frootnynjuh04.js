@@ -42,7 +42,8 @@ function draw(){
         rect(0, 0, width, height);
         fill(255);
         textAlign(CENTER, CENTER);
-        text
+        textSize(48);
+        
     }
 
     if(mouse.pressing()){
