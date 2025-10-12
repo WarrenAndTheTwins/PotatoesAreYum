@@ -73,7 +73,7 @@ function draw(){
             missedfruits += 1;
     }
     if (!bgTrack.isPlaying()){
-        bgTrack.loop()
+        bgTrack.loop();
     }
 
 }
