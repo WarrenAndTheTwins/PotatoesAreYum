@@ -45,7 +45,7 @@ function draw(){
         textSize(48);
         text('Ultimate Nutrition Hater', width/2, height/2);
         textSize(24);
-        text()
+        text('Mew or ')
     }
 
     if(mouse.pressing()){
