@@ -1,4 +1,3 @@
-const { startTransition } = require("react");
 
 let fruitGroup;
 let fruitTypes =[];
