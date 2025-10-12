@@ -12,7 +12,7 @@ let bgTrack;
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
      sliceSound = loadSound('assets/fruit-ninja-combo.mp3');
-     bgTrack = loadSound
+     bgTrack = loadSound('ass')
     //declare peach 
     let peach = {
         whole:loadImage('assets/peachwhole.png'),
