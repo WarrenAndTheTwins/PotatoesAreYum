@@ -103,7 +103,7 @@ function sliceFruit(){
             const fy = fruit.y;
             fruit.sliced= true;
             fruit.remove();
-            sliceSound
+            sliceSound.play()
             splitFruit(fx,fy,fruit.type);
             score += 1;
             break;
