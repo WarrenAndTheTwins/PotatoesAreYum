@@ -88,8 +88,10 @@ function draw(){
      if (!bgTrack.isPlaying()){
         bgTrack.loop();
     }
+    
     if (GameTimer >= GameDuration){
-        
+        gameState = 'gameover'
+        return;
     }
    
 }
