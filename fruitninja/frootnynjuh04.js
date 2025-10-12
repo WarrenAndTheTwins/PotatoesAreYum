@@ -42,7 +42,7 @@ function draw(){
         trail.life = 10;
         sliceFruit();
     }
-for (fruits in fruitGroup){
+for (fruits of fruitGroup){
     if (fruits.y > height + 50){
         fruits.remove();
         missedfruits += 1;
