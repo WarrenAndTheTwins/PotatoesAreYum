@@ -6,7 +6,7 @@ let dogoBG;
 let fruitHalves;
 let score = 0;
 let missedfruits = 0;
-let JamLate = startTransition;
+let JamLate = start;
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
