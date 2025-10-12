@@ -44,8 +44,8 @@ function draw(){
     }
 for (fruits in fruitGroup){
     if (fruits.y > 50){
-        fruits.remove;
-        
+        fruits.remove();
+        missedfruits += 1;
     }
 }
 
