@@ -4,7 +4,7 @@ let dogoBG;
 let fruitHalves;
 let score = 0;
 let missedfruits = 0;
-let gameState = start;
+let gameState = 'start';
 
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
