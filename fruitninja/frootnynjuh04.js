@@ -40,7 +40,8 @@ function draw(){
     if(gameState === 'start'){
         fill(0,180);
         rect(0, 0, width, height);
-        fill(255)
+        fill(255);
+        textAlign(CENTER)
     }
 
     if(mouse.pressing()){
