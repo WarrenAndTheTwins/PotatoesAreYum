@@ -44,7 +44,8 @@ function draw(){
         textAlign(CENTER, CENTER);
         textSize(48);
         text('Ultimate Nutrition Hater', width/2, height/2);
-        textSize()
+        textSize(24);
+        text()
     }
 
     if(mouse.pressing()){
