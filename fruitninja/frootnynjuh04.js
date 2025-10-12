@@ -43,7 +43,8 @@ function draw(){
         sliceFruit();
     }
 for (fruits in fruitGroup){
-    
+    if (fruits.y > 50);
+        
 }
 
     stroke(158, 69, 69);
