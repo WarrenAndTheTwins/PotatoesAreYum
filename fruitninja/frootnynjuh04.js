@@ -35,10 +35,9 @@ function draw(){
     // % refers to the remainder so if framecount / by 120 and the remainder is 0 then i call spawnfruit function
     if (mouse.presses('A')||mouse.presses()&& gameState === 'start'){
         gameState = 'play';
-        
         score = 0;
         missedfruits = 0;
-
+        fruit
     }
     if(gameState === 'start'){
         fill(0,180);
