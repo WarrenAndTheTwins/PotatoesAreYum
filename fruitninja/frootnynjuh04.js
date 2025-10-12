@@ -3,7 +3,8 @@ let fruitTypes =[];
 let dogoBG;
 let fruitHalves;
 let score = 0;
-let missed
+let missedfruits = 0;
+
 function preload(){
      dogoBG = loadImage('assets/dojobackground.png');
     //declare peach 
