@@ -1,1 +1,3 @@
-draw()
+function preload(){
+    
+}
