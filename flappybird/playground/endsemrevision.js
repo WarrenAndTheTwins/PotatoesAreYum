@@ -3,7 +3,7 @@ function preload(){
 background = loadImage('assets/background-day.png')
 }
 function setup(){
-new Can
+new Canvas()
 }
 function draw(){
 
