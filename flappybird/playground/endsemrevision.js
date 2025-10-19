@@ -15,6 +15,6 @@ square.collider = "dynamic";
 function draw(){
 image(background,0,0,width,height);
 if (mouse.presses()){
-    square.
+    square.velocity.y = 1
 }
 }
