@@ -21,7 +21,7 @@ function preload(){
     for(let i = 0; i < 10; i++){
         numImg[i] = loadImage = ('assets/' + i + '.png');
     }
-    startScreenImage = loadImage('assets/message.png')
+    startScreenImage = loadImage('assets/message.png');
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
     flapMidImg = loadImage('assets/yellowbird-midflap.png');    
