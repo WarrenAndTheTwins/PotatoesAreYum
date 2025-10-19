@@ -10,7 +10,7 @@ function setup(){
 background = new Canvas(width, length)
 }
 function draw(){
-    width = 500;
+width = 500;
 length = 700;
 square = new Sprite
 square.x = width/2
