@@ -5,7 +5,7 @@ let width;
 function preload(){
 background = loadImage('assets/background-day.png');
 square = loadImage('assets/redbird-midflap.png');
-
+width = 500
 }
 function setup(){
 background = new Canvas(width, length)
