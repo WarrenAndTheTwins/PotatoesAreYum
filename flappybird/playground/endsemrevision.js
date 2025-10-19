@@ -13,7 +13,7 @@ square.y = length/2;
 }
 function draw(){
 image(background,0,0,width,height);
-if (mouse.presses){
+if (mouse.presses()){
     
 }
 }
