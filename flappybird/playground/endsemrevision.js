@@ -4,7 +4,7 @@ let length;
 let width;
 function preload(){
 background = loadImage('assets/background-day.png');
-square = loadImage('assets/redbrid-midflap.png');
+square = loadImage('assets/redbird-midflap.png');
 
 }
 function setup(){
