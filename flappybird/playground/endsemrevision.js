@@ -1,4 +1,4 @@
-let 
+let background;
 function preload(){
 
 }
