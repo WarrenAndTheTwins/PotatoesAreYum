@@ -13,5 +13,5 @@ background = new Canvas(width, length)
 function draw(){
 square = new Sprite
 square.x = width/2
-s
+square.y = length/2
 }
